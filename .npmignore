@@ -1,0 +1,7 @@
+tests/
+examples/
+coverage/
+.env
+.env.*
+*.tgz
+eslint.config.js

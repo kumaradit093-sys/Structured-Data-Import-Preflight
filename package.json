@@ -1,0 +1,43 @@
+{
+  "name": "data-import-preflight",
+  "version": "0.1.0",
+  "description": "Validate CSV and JSON files against a schema before importing structured data.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "data-import-preflight": "src/cli.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint src tests examples"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "validation",
+    "schema",
+    "import",
+    "data-quality"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumaradit093-sys/Structured-Data-Import-Preflight.git"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0"
+  }
+}
